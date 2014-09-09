@@ -51,21 +51,20 @@
     <link rel="stylesheet" href="/static/css/dist/css/bootstrap.css"  type="text/css"/>
 	   <style>
         
-        @font-face { font-family: Modeno; src: url("https://fonts.googleapis.com/css?family=Poiret+One"); } 
-        p { font-family: Modeno; }
-        h1, h2, h3, h4, h5 { font-family: Modeno; font-size:42px}
+        @font-face { 
+          font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+          src: url("http://www.matteogamba.net/static/fonts/proxima%20nova/ProximaNova-Bold.otf");
+          font-size: 16px;
+          line-height: 1.5;
+          } 
+        p { font-family: Proxima Nova; }
+        h1 { font-family: Proxima Nova; font-size: 48px; padding-left: 10px;}
+        h2, h3, h4, h5  { font-family: Proxima Nova; font-size: 24px; font-weight: 100; padding-left: 10px}
         img { margin: 10px; }
-        img { margin: 10px; }
-		    #box {background-color: white; margin: 40px; margin-top: 180px;border-radius: 15px; opacity:0.9}
+		    #box {background-color: #fff; margin: 40px; margin-top: 40px;border-radius: 10px; opacity:0.9}
 		    body { background-color: #333; 	
 			   background-image:url('http://www.matteogamba.net/static/images/background_hp.jpg');
 		    a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
-		    #monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
-		    #about { width: 360px; padding: 0 0 0 150px; margin: -35px 50px 0 auto !important; }
-		    @media (max-width: 767px) {
-			   #monogram { position: relative; width: auto; padding: 20px; margin: 0; }
-			   #about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
-			   }
 	   </style>
 
 
@@ -124,30 +123,30 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 
     <div class="col-md-6">
       <div valign="center" id="box" class="col-md-3" itemscope itemtype="http://data-vocabulary.org/Person">
-        <h1 class="col-md-8 col-md-offset-1"><span itemprop="name">Matteo Gamba</span></h1><br>
-        <h3 class="col-md-8 col-md-offset-1"><strong><span itemprop="title">Product Management, Social Media &amp; Online Marketing</span></strong></h3> 
+        <h1 class="col-md-8 col-md-offset-1"><span itemprop="name">Matteo Gamba</span></h1>
+        <h3 class="col-md-8 col-md-offset-1"><span itemprop="title">Product Management, Social Media &amp; Online Marketing</span></h3> 
         
-        <div class="col-md-11 col-md-offset-1"><p class="small">
+        <div class="col-md-11 col-md-offset-1">
         	
-        <a href="mailto:matteogamba@gmail.com" target="_blank">
+        <a href="mailto:matteogamba@gmail.com" target="_blank">        
             <img src="http://www.matteogamba.net/static/icons/email.png" width=50px alt="Email" /></a>
-        <a href="http://www.facebook.com/matteogamba" target="_blank">    
+        <a href="https://www.linkedin.com/in/matteogamba" target="_blank">    
+            <img src="http://www.matteogamba.net/static/icons/linkedin.png" width=50px alt="LinkedIn" /></a>              
+        <a href="https://www.facebook.com/matteogamba" target="_blank">    
             <img src="http://www.matteogamba.net/static/icons/facebook.png" width=50px alt="Facebook" /></a>
-        <a href="http://twitter.com/sliver86" target="_blank">
+        <a href="https://www.twitter.com/sliver86" target="_blank">
             <img src="http://www.matteogamba.net/static/icons/twitter.png" width=50px alt="Twitter" /></a>
         <a href="https://plus.google.com/117735756051850922478/?rel=author"  target="_blank">
             <img src="http://www.matteogamba.net/static/icons/google+.png" width=50px alt="Google+" /></a> 
-        <a href="https://instagram.com/matteogamba"  target="_blank">
-            <img src="http://www.matteogamba.net/static/icons/instagram.png" width=50px alt="Instagram" /></a>
-        <a href="http://www.linkedin.com/in/matteogamba" target="_blank">    
-            <img src="http://www.matteogamba.net/static/icons/linkedin.png" width=50px alt="LinkedIn" /></a>    
-        <a href="http://www.foursquare.com/sliver86" target="_blank">
-        	<img src="http://www.matteogamba.net/static/icons/foursquare.png" width=50px alt="Foursquare" /></a>
-        <a href="https://angel.co/matteogamba" target="_blank" target="_blank">
+        <a href="https://angel.co/matteogamba"  target="_blank">
             <img src="http://www.matteogamba.net/static/icons/angel.png" width=50px alt="AngeList" /></a>
         <a href="https://github.com/matteogamba" target="_blank">
             <img src="http://www.matteogamba.net/static/icons/github.png" width=50px alt="GitHub" /></a>
-         <a href="http://bit.ly/CV_matteogamba_EN" target="_blank">
+         <a href="https://instagram.com/matteogamba" target="_blank">
+            <img src="http://www.matteogamba.net/static/icons/instagram.png" width=50px alt="Instagram" /></a>  
+        <a href="https://www.foursquare.com/sliver86" target="_blank">
+        	<img src="http://www.matteogamba.net/static/icons/foursquare.png" width=50px alt="Foursquare" /></a>
+        <a href="https://bit.ly/CV_matteogamba_EN" target="_blank" target="_blank">
             <img src="http://www.matteogamba.net/static/icons/cv.png" width=50px alt ="CV" /></a>
         </div>
         <center>
@@ -158,11 +157,14 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 
   
   <!-- social buttons -->
-   
+
+   <div class="social">
    <div class="g-plusone" data-size="medium"></div>
 
    <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+   <div>
 
    <!--<div class="fb-like" data-href="https://www.matteogamba.net" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div>-->
 
