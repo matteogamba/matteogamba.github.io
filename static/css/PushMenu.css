@@ -1,0 +1,237 @@
+/* menu button */
+
+button.menu-button {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 38px;
+  height: 38px;
+  border-radius:50%;
+  z-index: 1000;
+  font-size: 22px;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #E64946;
+  color: #FFF;
+  -webkit-box-shadow: rgba(0,0,0,0.2) 0 0 0 3px;
+  -moz-box-shadow: rgba(0,0,0,0.2) 0 0 0 3px;
+  box-shadow: rgba(0,0,0,0.2) 0 0 0 3px;
+
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+button.menu-button:hover {
+  background-color: #fff ;
+  color: #E64946;
+  box-shadow: rgba(0,0,0,0.2) 0 0 0 3px;
+}
+
+/* General styles for all menus */
+.bhoot-spmenu {
+  background: transparent;
+  position: fixed;
+  z-index:2;
+}
+
+
+.bhoot-spmenu ul {
+  width:150px;
+  margin-top: 80%;
+
+}
+.bhoot-spmenu ul li{
+  list-style:none;
+  margin-left:-40px;
+  width: auto;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.bhoot-spmenu a {
+  display: block;
+  color: #fff;
+  font-size: 0.7em;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #222;
+  background: rgba(0,0,0, 0.6);
+  margin-bottom:1px;  
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+
+}
+
+
+.bhoot-spmenu ul li:nth-child(1) {
+  width: 120px;
+}
+
+.bhoot-spmenu ul li:nth-child(2) {
+  width: 150px;
+}
+.bhoot-spmenu ul li:nth-child(3) {
+  width: 160px;
+}
+
+.bhoot-spmenu ul li:nth-child(4) {
+  width: 140px;
+}
+
+
+.bhoot-spmenu ul li:hover {
+  background: #fff; 
+  padding-left: 10px;
+  width: 110%;
+  
+}
+
+.bhoot-spmenu a:hover {
+  color: #E64946;
+  background-color: #fff;
+  
+}
+
+.bhoot-spmenu a:active {
+  background: #000;
+  
+}
+
+/* Orientation-dependent styles for the content of the menu */
+
+.bhoot-spmenu-vertical {
+  width: auto;
+  top: 0;
+}
+
+.bhoot-spmenu-vertical a {
+  padding: 0.3em;
+}
+
+.bhoot-spmenu-horizontal {
+  width: 100%;
+  height: 150px;
+  left: 0;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.bhoot-spmenu-horizontal h3 {
+  width: 20%;
+  float: left;
+}
+
+.bhoot-spmenu-horizontal a {
+  float: left;
+  width: 20%;
+  padding: 0.8em;
+  border-left: 1px solid #258ecd;
+}
+
+/* Vertical menu that slides from the left or right */
+
+.bhoot-spmenu-left {
+  left: -250px;
+}
+
+.bhoot-spmenu-right {
+  right: -250px;
+}
+
+.bhoot-spmenu-left.bhoot-spmenu-open {
+  left: 0px;
+}
+
+.bhoot-spmenu-right.bhoot-spmenu-open {
+  right: 0px;
+}
+
+/* Horizontal menu that slides from the top or bottom */
+
+.bhoot-spmenu-top {
+  top: -150px;
+}
+
+.bhoot-spmenu-bottom {
+  bottom: -150px;
+}
+
+.bhoot-spmenu-top.bhoot-spmenu-open {
+  top: 0px;
+}
+
+.bhoot-spmenu-bottom.bhoot-spmenu-open {
+  bottom: 0px;
+}
+
+/* Push classes applied to the body */
+
+.bhoot-spmenu-push {
+  overflow-x: hidden;
+  position: relative;
+  left: 0;
+}
+
+.bhoot-spmenu-push-toright {
+  left: 210px;
+}
+
+.bhoot-spmenu-push-toleft {
+  left: -210px;
+}
+
+/* Transitions */
+
+.bhoot-spmenu,
+.bhoot-spmenu-push {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* Example media queries */
+
+@media screen and (max-width: 55.1875em){
+
+  .bhoot-spmenu-horizontal {
+    font-size: 75%;
+    height: 110px;
+  }
+
+  .bhoot-spmenu-top {
+    top: -110px;
+  }
+
+  .bhoot-spmenu-bottom {
+    bottom: -110px;
+  }
+
+}
+
+@media screen and (max-height: 26.375em){
+
+  .bhoot-spmenu-vertical {
+    font-size: 90%;
+    width: 190px;
+  }
+
+  .bhoot-spmenu-left,
+  .bhoot-spmenu-push-toleft {
+    left: -190px;
+  }
+
+  .bhoot-spmenu-right {
+    right: -190px;
+  }
+
+  .bhoot-spmenu-push-toright {
+    left: 190px;
+  }
+}
