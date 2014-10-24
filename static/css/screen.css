@@ -404,7 +404,7 @@ margin on the iframe, cause it breaks stuff. */
     width: auto;
     margin: 0 auto;
     line-height: 0;
-    border: 5px solid;
+    border: 3px solid;
     border-color: white;
     border-radius: 50%;
 }
