@@ -113,7 +113,7 @@
 
             <div class="social-share">
                 <span class="Facebook">
-                    <iframe src="https://www.facebook.com/plugins/like.php?href=http://www.matteogamba.net/blog/2014/facebook-places-redesign&amp;show_faces=false&amp;layout=button_count" scrolling="no" frameborder="0" style="height: 21px; width: 100px" allowTransparency="true"></iframe>
+                    <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.matteogamba.net%2F%2Fblog%2F2014%2Ffacebook-places-redesign&amp;width&amp;layout=button_count&amp;action=recommend&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=728034277214994" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
                 </span>
                 <span class="twitter">
                     <a href="http://twitter.com/share" class="twitter-share-button" data-text="Facebook Goes After @Yelp, @Foursquare &amp; @TripAdvisor With Completely Redesigned #Places Directory" data-url="http://www.matteogamba.net/blog/2014/facebook-places-redesign" data-via="sliver86"></a>
@@ -449,23 +449,15 @@
 
     <!-- Facebook JS -->
 
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '{728034277214994}',
-          xfbml      : true,
-          version    : 'v2.0'
-        });
-      };
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0&appId=728034277214994"; 
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/en_US/sdk.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
-    </script>
 
     <!-- Twitter JS -->
 
