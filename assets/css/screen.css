@@ -1094,17 +1094,17 @@ color: #fff;
     }
 
     h1, h2 {
-        font-size: 3rem;
+        font-size: 2rem; /* matteo */
         line-height: 1.1em;
         letter-spacing: -1px;
     }
 
     h3 {
-        font-size: 2.8rem;
+        font-size: 1.8rem; /* matteo */
     }
 
     h4 {
-        font-size: 2.3rem;
+        font-size: 1.5rem; /* matteo */
     }
 
     .post-template .post {
