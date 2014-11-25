@@ -9,7 +9,7 @@
 <url>
   <loc>http://www.matteogamba.net/</loc>
   <lastmod>2014-11-08T15:24:59+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://www.matteogamba.net/about-me/</loc>
@@ -29,11 +29,6 @@
 <url>
   <loc>http://www.matteogamba.net/blog/2014/airbnb-weekend-getaways/</loc>
   <lastmod>2014-11-20T12:00:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.matteogamba.net/getaways-list/</loc>
-  <lastmod>2014-11-20T12:00:00+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
 </url>
 </urlset>
