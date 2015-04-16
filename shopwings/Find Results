@@ -1,0 +1,99 @@
+Searching 1520 files for "twitter:domain"
+
+/Users/matteo/Dropbox/Public/Github/matteogamba.github.io/about-me/index.html:
+   56      <meta name="twitter:card" content="summary_large_image" />
+   57      <meta name="twitter:url" content="http://www.matteogamba.net/about-me/" />
+   58:     <meta name="twitter:domain" content="matteogamba.net" />
+   59      <meta name="twitter:creator" content="@sliver86" />
+   60      <meta name="twitter:image:src" content="http://www.matteogamba.net/assets/images/business_card.png" />
+
+/Users/matteo/Dropbox/Public/Github/matteogamba.github.io/airbnb-cv/index.html:
+   88        <meta name="twitter:card" content="summary_large_image" />
+   89        <meta name="twitter:url" content="http://www.matteogamba.net/airbnb-cv/" />
+   90:       <meta name="twitter:domain" content = "matteogamba.net" >
+   91        <meta name="twitter:creator" content="@sliver86" />
+   92        <meta name="twitter:image:src" content="http://www.matteogamba.net/airbnb-cv/images/social_image.png" />
+
+/Users/matteo/Dropbox/Public/Github/matteogamba.github.io/blog/2014/airbnb-weekend-getaways/index.html:
+   59      <meta name="twitter:card" content="summary_large_image" />
+   60      <meta name="twitter:url" content="http://www.matteogamba.net/blog/2014/airbnb-weekend-getaways/" />
+   61:     <meta name="twitter:domain" content="matteogamba.net" />
+   62      <meta name="twitter:creator" content="@sliver86" />
+   63      <meta name="twitter:image:src" content="http://www.matteogamba.net/blog/2014/airbnb-weekend-getaways/images/social_image.png" />
+
+/Users/matteo/Dropbox/Public/Github/matteogamba.github.io/blog/2014/airbnb-weekend-getaways/list/go.html:
+   54      <meta name="twitter:card" content="summary_large_image" />
+   55      <meta name="twitter:url" content="http://www.matteogamba.net/blog/2014/airbnb-weekend-getaways/list/go.html" />
+   56:     <meta name="twitter:domain" content="matteogamba.net" />
+   57      <meta name="twitter:creator" content="@sliver86" />
+   58      <meta name="twitter:image:src" content="http://www.matteogamba.net/blog/2014/airbnb-weekend-getaways/images/social_image.png" />
+
+/Users/matteo/Dropbox/Public/Github/matteogamba.github.io/blog/2014/airbnb-weekend-getaways/list/index.html:
+   54      <meta name="twitter:card" content="summary_large_image" />
+   55      <meta name="twitter:url" content="http://www.matteogamba.net/blog/2014/airbnb-weekend-getaways/list/" />
+   56:     <meta name="twitter:domain" content="matteogamba.net" />
+   57      <meta name="twitter:creator" content="@sliver86" />
+   58      <meta name="twitter:image:src" content="http://www.matteogamba.net/blog/2014/airbnb-weekend-getaways/images/social_image.png" />
+
+/Users/matteo/Dropbox/Public/Github/matteogamba.github.io/blog/2014/airbnb-weekend-getaways/list/index_old.html:
+   54      <meta name="twitter:card" content="summary_large_image" />
+   55      <meta name="twitter:url" content="http://www.matteogamba.net/blog/2014/airbnb-weekend-getaways/list/" />
+   56:     <meta name="twitter:domain" content="matteogamba.net" />
+   57      <meta name="twitter:creator" content="@sliver86" />
+   58      <meta name="twitter:image:src" content="http://www.matteogamba.net/blog/2014/airbnb-weekend-getaways/images/social_image.png" />
+
+/Users/matteo/Dropbox/Public/Github/matteogamba.github.io/blog/2014/facebook-places-redesign/index.html:
+   59      <meta name="twitter:card" content="summary_large_image" />
+   60      <meta name="twitter:url" content="http://www.matteogamba.net/blog/2014/facebook-places-redesign/" />
+   61:     <meta name="twitter:domain" content="matteogamba.net" />
+   62      <meta name="twitter:creator" content="@sliver86" />
+   63      <meta name="twitter:image:src" content="http://www.matteogamba.net/blog/2014/facebook-places-redesign/images/social_image.png" />
+
+/Users/matteo/Dropbox/Public/Github/matteogamba.github.io/blog/2014/post template.html:
+   59      <meta name="twitter:card" content="summary_large_image" />
+   60      <meta name="twitter:url" content="http://www.matteogamba.net/blog/YYYY/INSERT_POST_URL" />
+   61:     <meta name="twitter:domain" content="matteogamba.net" />
+   62      <meta name="twitter:creator" content="@sliver86" />
+   63      <meta name="twitter:image:src" content="http://www.matteogamba.net/blog/YYYY/INSERT_POST_URL/images/social_image.png" />
+
+/Users/matteo/Dropbox/Public/Github/matteogamba.github.io/blog/index.html:
+   56      <meta name="twitter:card" content="summary_large_image" />
+   57      <meta name="twitter:url" content="http://www.matteogamba.net/blog/" />
+   58:     <meta name="twitter:domain" content="matteogamba.net" />
+   59      <meta name="twitter:creator" content="@sliver86" />
+   60      <meta name="twitter:image:src" content="http://www.matteogamba.net/assets/images/business_card.png" />
+
+/Users/matteo/Dropbox/Public/Github/matteogamba.github.io/index.html:
+   56      <meta name="twitter:card" content="summary_large_image" />
+   57      <meta name="twitter:url" content="http://www.matteogamba.net" />
+   58:     <meta name="twitter:domain" content="matteogamba.net" />
+   59      <meta name="twitter:creator" content="@sliver86" />
+   60      <meta name="twitter:image:src" content="http://www.matteogamba.net/assets/images/business_card.png" />
+
+/Users/matteo/Dropbox/Public/Github/matteogamba.github.io/index_old.html:
+   38    <meta name="twitter:card" content="summary_large_image" />
+   39    <meta name="twitter:url" content="http://www.matteogamba.net" />
+   40:   <meta name="twitter:domain" content = "matteogamba.net" />
+   41    <meta name="twitter:creator" content="@sliver86" />
+   42    <meta name="twitter:image:src" content="http://www.matteogamba.net/assets/images/business_card.png" />
+
+/Users/matteo/Dropbox/Public/Github/matteogamba.github.io/my-skills/index.html:
+   56      <meta name="twitter:card" content="summary_large_image" />
+   57      <meta name="twitter:url" content="http://www.matteogamba.net/my-skills/" />
+   58:     <meta name="twitter:domain" content="matteogamba.net" />
+   59      <meta name="twitter:creator" content="@sliver86" />
+   60      <meta name="twitter:image:src" content="http://www.matteogamba.net/assets/images/business_card.png" />
+
+/Users/matteo/Dropbox/Public/Github/matteogamba.github.io/shopwings/index.html:
+   56      <meta name="twitter:card" content="summary_large_image" />
+   57      <meta name="twitter:url" content="http://www.matteogamba.net/shopwings/" />
+   58:     <meta name="twitter:domain" content="matteogamba.net" />
+   59      <meta name="twitter:creator" content="@sliver86" />
+   60      <meta name="twitter:image:src" content="http://www.matteogamba.net/shopwings/images/social_image.png" />
+
+13 matches across 13 files
+
+
+Searching 1520 files for "twitter:site"
+
+0 matches across 0 files
