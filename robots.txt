@@ -1,3 +1,2 @@
 User-agent: *
 Disallow: /my-skills/
-Disallow: /airbnb-cv/
