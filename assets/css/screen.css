@@ -700,7 +700,7 @@ color: #fff;
    6. Single Page - When you click on an individual page
    ========================================================================== */
 
-.page .post-title{
+.post .post-title{
     text-align: center;
     padding-top: 8rem; /* matteo */
 }
