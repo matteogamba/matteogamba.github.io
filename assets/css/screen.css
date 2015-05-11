@@ -702,6 +702,7 @@ color: #fff;
 
 .page .post-title{
     text-align: center;
+    padding-top: 8rem; /* matteo */
 }
 
 /* Create some space to the right for the share links */
